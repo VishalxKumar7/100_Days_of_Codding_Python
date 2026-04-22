@@ -6,7 +6,7 @@ if choice1 == "right":
     print("You fell into a whole. Gave Over")
 elif choice1 == 'left':
     choice2 = input("You come to a lake. Island in the middle of the lake. " \
-    "Type 'waite' to waite for a boat. Type 'swim' to swim to the Island.  ").lower()
+    "Type 'wait' to wait for a boat. Type 'swim' to swim to the Island.  ").lower()
     if choice2 == "wait":
         choice3 = input("You have arrived to the Island now there are 3 doors. One 'red', One 'blue', One 'yellow'. Choose the door to get to the treasure.  ").lower()
         if choice3 == "red":
@@ -22,4 +22,4 @@ elif choice1 == 'left':
     else:
         print("You choice doesn't exist. Game Over")
 else:
-            print("You choice doesn't exist. Game Over")
+    print("You choice doesn't exist. Game Over")
