@@ -27,6 +27,7 @@ print(logo)
 bids = {}
 continue_bidding = True
 
+# Checking and Printing the highest Bidder and his bid amount
 def find_highest_bidder(bidding_dictionary):
     winner = ""
     highest_bid = 0
@@ -39,6 +40,7 @@ def find_highest_bidder(bidding_dictionary):
     print(f"The winner is  {winner} with a bid of ${highest_bid}")
 
 
+# Main logic of Bidding
 while continue_bidding:
     name = input("What is your name?: ")
     price = int(input("What is Your bid?: $"))
