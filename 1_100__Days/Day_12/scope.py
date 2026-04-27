@@ -32,5 +32,5 @@ def game():
     
     drink_potion()      # We can call it here
 
-drink_portion()     # This will show the error because it is inside a function and we can access it 
+#drink_portion()     # This will show the error because it is inside a function and we can access it 
 print(player_health)
