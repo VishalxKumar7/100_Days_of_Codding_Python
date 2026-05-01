@@ -5,7 +5,7 @@ def number_guessing_game():
     print("Welcome to number guessing game!")
     num = random.randint(1, 101)
 
-    difficulty = input(f"Chose the defficulty. Type 'Easy' for easy and 'Hard' for hard: ").lower()
+    difficulty = input(f"Chose the difficulty. Type 'Easy' for easy and 'Hard' for hard: ").lower()
     if difficulty == "easy":
         lives = 10
     elif difficulty == "hard":

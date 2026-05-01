@@ -116,6 +116,8 @@ def compare(u_score, c_score):
         return "You Win"
     else:
         return "You lose"
+    
+    
 def play_game():
     print(logo)
     user_cards = []

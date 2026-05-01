@@ -8,8 +8,8 @@ Add pepperoni for medium and large (Y or N): +$3
 Add extra cheese for any size pizza (Y or N): +$1
 """
 
-print("Weolocme to Pyton Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L: ").lower()
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size of pizza do you want? S, M, or L: ").lower()
 pepperoni = input("Do you want pepperoni on your pizza? Y or N: ").lower()
 extra_cheese = input("Do you want extra cheese? Y or N: ").lower()
 
@@ -25,7 +25,7 @@ elif size == "l":
     bill = 25
     print("You have selected Large Pizza")
 else:
-    print("You typed the wront input.")
+    print("You typed the wrong input.")
 
 # Adding Pepperoni
 if pepperoni == "y":
