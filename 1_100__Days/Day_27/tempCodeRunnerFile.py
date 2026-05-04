@@ -1,0 +1,1 @@
+my_label.config(text="New Text")
