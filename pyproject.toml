@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "colorgram-py>=1.2.0",
+    "dotenv>=0.9.9",
     "pandas>=3.0.2",
     "prettytable>=3.17.0",
     "requests>=2.33.1",
+    "twilio>=9.10.9",
 ]
