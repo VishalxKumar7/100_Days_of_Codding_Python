@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-api_key = os.environ.get("api_key")
-account_sid = os.environ.get("account_sid")
-auth_token = os.environ.get("auth_token")
+api_key = os.environ.get("OPEN_WEATHER_API_KEY")
+account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
+auth_token = os.environ.get("TWILIO_AUTH_TOKEN")
 
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
