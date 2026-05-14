@@ -5,9 +5,9 @@ import os
 
 load_dotenv()
 
-USERNAME = "vishalvanday"
-TOKEN = "dhw85nct58en982y476n92"
-GRAPH_ID = "studytime1"
+USERNAME = os.environ.get("USERNAME")
+TOKEN = os.environ.get("TOKEN")
+GRAPH_ID = os.environ.get("GRAPH_ID")
 
 pixela_endpoint = "https://pixe.la/v1/users"
 
