@@ -3,7 +3,7 @@
 # import smtplib
 
 # my_email = "singvishal40001@gmail.com"
-# password = "nleu vdar usbm uuap"
+# password = "dfjsdlkfndlsnflk"
 
 # with smtplib.SMTP("smtp.gmail.com") as connection:
 #     connection.starttls()
