@@ -24,7 +24,7 @@ cookie = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "big
 
 wait_time = 5
 timeout = time() + wait_time
-game_time = time() + 60 * 5
+game_time = time() + 60 * 100
 
 while True:
     cookie.click()
